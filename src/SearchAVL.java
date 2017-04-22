@@ -11,7 +11,6 @@ public class SearchAVL {
    
     public static AVLTree<DirectoryNode> loadData(){
         
-        Instant start = Instant.now();
         
         AVLTree<DirectoryNode> avl = new AVLTree(); //initialising a Binary Search Tree object
         
@@ -35,9 +34,6 @@ public class SearchAVL {
             
         }
         
-        Instant end = Instant.now();
-        Duration timeElapsed = Duration.between(start, end);
-        System.out.println("Time taken for Inserting: "+ timeElapsed.toMillis() +" milliseconds");
         
         return avl;
             
@@ -46,8 +42,6 @@ public class SearchAVL {
     public static void search(){
         
         AVLTree<DirectoryNode> avl = loadData(); // instantiate a BST with data from testdata file using loadData() method from above.
-        
-        Instant start = Instant.now();
                         
         try{
             
@@ -79,18 +73,13 @@ public class SearchAVL {
             
         }
         
-        Instant end = Instant.now();
-        Duration timeElapsed = Duration.between(start, end);
-        System.out.println("Time taken for Searching: "+ timeElapsed.toMillis() +" milliseconds");
-        
+                
     }
     
     public static void deletes(){
         
       AVLTree<DirectoryNode> avl = loadData(); // instantiate a BST with data from testdata file using loadData() method from above.
-        
-        Instant start = Instant.now();
-        
+               
         try{
             
             Scanner scanf = new Scanner(new File("queries.txt"));
@@ -102,10 +91,7 @@ public class SearchAVL {
                 avl.delete(new DirectoryNode("|" + line)); //searching for the node with key equal to a line in querries (each line is a full name)
                 
             }
-            
-            avl.inOrder();
-            
-            
+  
         }
         catch (Exception ex) {
             
@@ -113,11 +99,6 @@ public class SearchAVL {
             
         }
         
-        Instant end = Instant.now();
-        Duration timeElapsed = Duration.between(start, end);
-        System.out.println("Time taken for Deleting: "+ timeElapsed.toMillis() +" milliseconds");
-        
-   
     }
     
     public static void main(String[] args){
