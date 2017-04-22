@@ -1,19 +1,23 @@
-
 import java.io.File;
-import java.io.FileNotFoundException;
+import java.util.Scanner;
 import java.time.Duration;
 import java.time.Instant;
-import java.util.Scanner;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
-public class SearchAVL {
-   
-    public static AVLTree<DirectoryNode> loadData(){
+/** 
+ *Provides methods to load data from file into Binary Search Tree and search for specific nodes, using 
+ *the keys provided in a query file
+ *@author Dino Bossi
+ */
+public class SearchIt {
+      
+    /**
+     *method to load telephone directory data from testdata file into a Binary Search Tree 
+     */
+    public static BinarySearchTree loadData(){
         
         Instant start = Instant.now();
         
-        AVLTree<DirectoryNode> avl = new AVLTree(); //initialising a Binary Search Tree object
+        BinarySearchTree bst = new BinarySearchTree(); //initialising a Binary Search Tree object
         
         try{
             
@@ -23,7 +27,7 @@ public class SearchAVL {
                 
                 String line = scanf.nextLine();
                                
-                avl.insert(new DirectoryNode(line));//creation and addition to tree of a node (key = full name, data = full entry/line from testdata)
+                bst.addNode(line.substring(line.lastIndexOf("|")+1), line);//creation and addition to tree of a node (key = full name, data = full entry/line from testdata)
                 
             }
             
@@ -37,31 +41,37 @@ public class SearchAVL {
         
         Instant end = Instant.now();
         Duration timeElapsed = Duration.between(start, end);
-        System.out.println("Time taken for Inserting: "+ timeElapsed.toMillis() +" milliseconds");
+        System.out.println("Time taken for Insertion: "+ timeElapsed.toMillis() +" milliseconds");
         
-        return avl;
+        return bst;
             
     }
     
+    /**
+     *method to search for items in a Binary Search Tree containing testdata data which match specific queries in a query file
+     *The method does not return anything, but rather prints each found entry on the screen and a message if an entry is not matched with a query
+     */   
     public static void search(){
         
-        AVLTree<DirectoryNode> avl = loadData(); // instantiate a BST with data from testdata file using loadData() method from above.
+        
+        
+        BinarySearchTree bst = loadData(); // instantiate a BST with data from testdata file using loadData() method from above.
         
         Instant start = Instant.now();
-                        
+        
         try{
             
             Scanner scanf = new Scanner(new File("queries.txt"));
-                     
+            
             while (scanf.hasNextLine()){ // loop through each line (a single name (query)) in queries 
                 
                 String line = scanf.nextLine();
                                 
-                BinaryTreeNode<DirectoryNode> found = avl.find(new DirectoryNode(line)); //searching for the node with key equal to a line in querries (each line is a full name)
+                String returned = bst.findNode(line); //searching for the node with key equal to a line in querries (each line is a full name)
                 
-                if(found!=null){
+                if(returned!=null){
                     
-                    System.out.println(found.data.getValue()); // printing out the full entry contained in String returned
+                    System.out.println(returned); // printing out the full entry contained in String returned
                     
                 }
                 else{
@@ -87,7 +97,7 @@ public class SearchAVL {
     
     public static void deletes(){
         
-      AVLTree<DirectoryNode> avl = loadData(); // instantiate a BST with data from testdata file using loadData() method from above.
+        BinarySearchTree bst = loadData(); // instantiate a BST with data from testdata file using loadData() method from above.
         
         Instant start = Instant.now();
         
@@ -99,11 +109,11 @@ public class SearchAVL {
                 
                 String line = scanf.nextLine();
                                 
-                avl.delete(new DirectoryNode("|" + line)); //searching for the node with key equal to a line in querries (each line is a full name)
+                Boolean fnd = bst.remove(line); //searching for the node with key equal to a line in querries (each line is a full name)
                 
             }
             
-            avl.inOrder();
+            bst.inOrderTraverseTree(bst.root);
             
             
         }
