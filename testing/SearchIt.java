@@ -71,7 +71,7 @@ public class SearchIt {
                 
                 if(returned!=null){
                     
-                    System.out.println(returned); // printing out the full entry contained in String returned
+                    //System.out.println(returned); // printing out the full entry contained in String returned
                     
                 }
                 else{
@@ -113,7 +113,7 @@ public class SearchIt {
                 
             }
             
-            bst.inOrderTraverseTree(bst.root);
+            //bst.inOrderTraverseTree(bst.root);
             
             
         }

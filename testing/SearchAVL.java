@@ -61,7 +61,7 @@ public class SearchAVL {
                 
                 if(found!=null){
                     
-                    System.out.println(found.data.getValue()); // printing out the full entry contained in String returned
+                    //System.out.println(found.data.getValue()); // printing out the full entry contained in String returned
                     
                 }
                 else{
@@ -103,7 +103,7 @@ public class SearchAVL {
                 
             }
             
-            avl.inOrder();
+            //avl.inOrder();
             
             
         }

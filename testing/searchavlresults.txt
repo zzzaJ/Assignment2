@@ -1,0 +1,525 @@
+n = 1
+Time taken for Inserting: 35 milliseconds
+Time taken for Searching: 1 milliseconds
+Time taken for Inserting: 0 milliseconds
+Time taken for Deleting: 1 milliseconds
+n = 1
+Time taken for Inserting: 28 milliseconds
+Time taken for Searching: 1 milliseconds
+Time taken for Inserting: 0 milliseconds
+Time taken for Deleting: 1 milliseconds
+n = 1
+Time taken for Inserting: 23 milliseconds
+Time taken for Searching: 0 milliseconds
+Time taken for Inserting: 1 milliseconds
+Time taken for Deleting: 0 milliseconds
+n = 1
+Time taken for Inserting: 33 milliseconds
+Time taken for Searching: 0 milliseconds
+Time taken for Inserting: 0 milliseconds
+Time taken for Deleting: 1 milliseconds
+n = 1
+Time taken for Inserting: 24 milliseconds
+Time taken for Searching: 0 milliseconds
+Time taken for Inserting: 1 milliseconds
+Time taken for Deleting: 0 milliseconds
+n = 5
+Time taken for Inserting: 26 milliseconds
+Time taken for Searching: 1 milliseconds
+Time taken for Inserting: 0 milliseconds
+Time taken for Deleting: 0 milliseconds
+n = 5
+Time taken for Inserting: 28 milliseconds
+Time taken for Searching: 1 milliseconds
+Time taken for Inserting: 0 milliseconds
+Time taken for Deleting: 1 milliseconds
+n = 5
+Time taken for Inserting: 46 milliseconds
+Time taken for Searching: 0 milliseconds
+Time taken for Inserting: 1 milliseconds
+Time taken for Deleting: 0 milliseconds
+n = 5
+Time taken for Inserting: 64 milliseconds
+Time taken for Searching: 0 milliseconds
+Time taken for Inserting: 1 milliseconds
+Time taken for Deleting: 5 milliseconds
+n = 5
+Time taken for Inserting: 62 milliseconds
+Time taken for Searching: 1 milliseconds
+Time taken for Inserting: 0 milliseconds
+Time taken for Deleting: 1 milliseconds
+n = 10
+Time taken for Inserting: 29 milliseconds
+Time taken for Searching: 1 milliseconds
+Time taken for Inserting: 1 milliseconds
+Time taken for Deleting: 1 milliseconds
+n = 10
+Time taken for Inserting: 60 milliseconds
+Time taken for Searching: 1 milliseconds
+Time taken for Inserting: 1 milliseconds
+Time taken for Deleting: 1 milliseconds
+n = 10
+Time taken for Inserting: 48 milliseconds
+Time taken for Searching: 0 milliseconds
+Time taken for Inserting: 1 milliseconds
+Time taken for Deleting: 0 milliseconds
+n = 10
+Time taken for Inserting: 50 milliseconds
+Time taken for Searching: 0 milliseconds
+Time taken for Inserting: 1 milliseconds
+Time taken for Deleting: 5 milliseconds
+n = 10
+Time taken for Inserting: 59 milliseconds
+Time taken for Searching: 0 milliseconds
+Time taken for Inserting: 1 milliseconds
+Time taken for Deleting: 3 milliseconds
+n = 25
+Time taken for Inserting: 28 milliseconds
+Time taken for Searching: 0 milliseconds
+Time taken for Inserting: 2 milliseconds
+Time taken for Deleting: 1 milliseconds
+n = 25
+Time taken for Inserting: 28 milliseconds
+Time taken for Searching: 1 milliseconds
+Time taken for Inserting: 1 milliseconds
+Time taken for Deleting: 8 milliseconds
+n = 25
+Time taken for Inserting: 37 milliseconds
+Time taken for Searching: 1 milliseconds
+Time taken for Inserting: 2 milliseconds
+Time taken for Deleting: 1 milliseconds
+n = 25
+Time taken for Inserting: 27 milliseconds
+Time taken for Searching: 1 milliseconds
+Time taken for Inserting: 3 milliseconds
+Time taken for Deleting: 12 milliseconds
+n = 25
+Time taken for Inserting: 47 milliseconds
+Time taken for Searching: 1 milliseconds
+Time taken for Inserting: 2 milliseconds
+Time taken for Deleting: 1 milliseconds
+n = 50
+Time taken for Inserting: 30 milliseconds
+Time taken for Searching: 2 milliseconds
+Time taken for Inserting: 8 milliseconds
+Time taken for Deleting: 1 milliseconds
+n = 50
+Time taken for Inserting: 51 milliseconds
+Time taken for Searching: 2 milliseconds
+Time taken for Inserting: 7 milliseconds
+Time taken for Deleting: 0 milliseconds
+n = 50
+Time taken for Inserting: 45 milliseconds
+Time taken for Searching: 1 milliseconds
+Time taken for Inserting: 7 milliseconds
+Time taken for Deleting: 0 milliseconds
+n = 50
+Time taken for Inserting: 63 milliseconds
+Time taken for Searching: 2 milliseconds
+Time taken for Inserting: 6 milliseconds
+Time taken for Deleting: 2 milliseconds
+n = 50
+Time taken for Inserting: 31 milliseconds
+Time taken for Searching: 1 milliseconds
+Time taken for Inserting: 6 milliseconds
+Time taken for Deleting: 1 milliseconds
+n = 100
+Time taken for Inserting: 64 milliseconds
+Time taken for Searching: 10 milliseconds
+Time taken for Inserting: 4 milliseconds
+Time taken for Deleting: 6 milliseconds
+n = 100
+Time taken for Inserting: 70 milliseconds
+Time taken for Searching: 3 milliseconds
+Time taken for Inserting: 4 milliseconds
+Time taken for Deleting: 1 milliseconds
+n = 100
+Time taken for Inserting: 72 milliseconds
+Time taken for Searching: 4 milliseconds
+Time taken for Inserting: 4 milliseconds
+Time taken for Deleting: 4 milliseconds
+n = 100
+Time taken for Inserting: 80 milliseconds
+Time taken for Searching: 8 milliseconds
+Time taken for Inserting: 3 milliseconds
+Time taken for Deleting: 5 milliseconds
+n = 100
+Time taken for Inserting: 37 milliseconds
+Time taken for Searching: 4 milliseconds
+Time taken for Inserting: 3 milliseconds
+Time taken for Deleting: 2 milliseconds
+n = 250
+Time taken for Inserting: 97 milliseconds
+Time taken for Searching: 14 milliseconds
+Time taken for Inserting: 2 milliseconds
+Time taken for Deleting: 0 milliseconds
+n = 250
+Time taken for Inserting: 114 milliseconds
+Time taken for Searching: 12 milliseconds
+Time taken for Inserting: 3 milliseconds
+Time taken for Deleting: 1 milliseconds
+n = 250
+Time taken for Inserting: 79 milliseconds
+Time taken for Searching: 7 milliseconds
+Time taken for Inserting: 2 milliseconds
+Time taken for Deleting: 1 milliseconds
+n = 250
+Time taken for Inserting: 62 milliseconds
+Time taken for Searching: 16 milliseconds
+Time taken for Inserting: 2 milliseconds
+Time taken for Deleting: 1 milliseconds
+n = 250
+Time taken for Inserting: 55 milliseconds
+Time taken for Searching: 7 milliseconds
+Time taken for Inserting: 2 milliseconds
+Time taken for Deleting: 6 milliseconds
+n = 500
+Time taken for Inserting: 112 milliseconds
+Time taken for Searching: 6 milliseconds
+Time taken for Inserting: 22 milliseconds
+Time taken for Deleting: 1 milliseconds
+n = 500
+Time taken for Inserting: 61 milliseconds
+Time taken for Searching: 5 milliseconds
+Time taken for Inserting: 29 milliseconds
+Time taken for Deleting: 2 milliseconds
+n = 500
+Time taken for Inserting: 52 milliseconds
+Time taken for Searching: 4 milliseconds
+Time taken for Inserting: 13 milliseconds
+Time taken for Deleting: 9 milliseconds
+n = 500
+Time taken for Inserting: 49 milliseconds
+Time taken for Searching: 4 milliseconds
+Time taken for Inserting: 13 milliseconds
+Time taken for Deleting: 5 milliseconds
+n = 500
+Time taken for Inserting: 45 milliseconds
+Time taken for Searching: 5 milliseconds
+Time taken for Inserting: 8 milliseconds
+Time taken for Deleting: 11 milliseconds
+n = 1000
+Time taken for Inserting: 55 milliseconds
+Time taken for Searching: 6 milliseconds
+Time taken for Inserting: 8 milliseconds
+Time taken for Deleting: 10 milliseconds
+n = 1000
+Time taken for Inserting: 136 milliseconds
+Time taken for Searching: 3 milliseconds
+Time taken for Inserting: 14 milliseconds
+Time taken for Deleting: 3 milliseconds
+n = 1000
+Time taken for Inserting: 88 milliseconds
+Time taken for Searching: 26 milliseconds
+Time taken for Inserting: 18 milliseconds
+Time taken for Deleting: 14 milliseconds
+n = 1000
+Time taken for Inserting: 64 milliseconds
+Time taken for Searching: 12 milliseconds
+Time taken for Inserting: 17 milliseconds
+Time taken for Deleting: 2 milliseconds
+n = 1000
+Time taken for Inserting: 68 milliseconds
+Time taken for Searching: 2 milliseconds
+Time taken for Inserting: 28 milliseconds
+Time taken for Deleting: 15 milliseconds
+n = 1500
+Time taken for Inserting: 122 milliseconds
+Time taken for Searching: 15 milliseconds
+Time taken for Inserting: 21 milliseconds
+Time taken for Deleting: 10 milliseconds
+n = 1500
+Time taken for Inserting: 76 milliseconds
+Time taken for Searching: 7 milliseconds
+Time taken for Inserting: 12 milliseconds
+Time taken for Deleting: 7 milliseconds
+n = 1500
+Time taken for Inserting: 74 milliseconds
+Time taken for Searching: 6 milliseconds
+Time taken for Inserting: 21 milliseconds
+Time taken for Deleting: 29 milliseconds
+n = 1500
+Time taken for Inserting: 108 milliseconds
+Time taken for Searching: 3 milliseconds
+Time taken for Inserting: 18 milliseconds
+Time taken for Deleting: 8 milliseconds
+n = 1500
+Time taken for Inserting: 123 milliseconds
+Time taken for Searching: 11 milliseconds
+Time taken for Inserting: 18 milliseconds
+Time taken for Deleting: 5 milliseconds
+n = 2000
+Time taken for Inserting: 120 milliseconds
+Time taken for Searching: 7 milliseconds
+Time taken for Inserting: 51 milliseconds
+Time taken for Deleting: 12 milliseconds
+n = 2000
+Time taken for Inserting: 90 milliseconds
+Time taken for Searching: 15 milliseconds
+Time taken for Inserting: 44 milliseconds
+Time taken for Deleting: 19 milliseconds
+n = 2000
+Time taken for Inserting: 87 milliseconds
+Time taken for Searching: 9 milliseconds
+Time taken for Inserting: 46 milliseconds
+Time taken for Deleting: 22 milliseconds
+n = 2000
+Time taken for Inserting: 147 milliseconds
+Time taken for Searching: 8 milliseconds
+Time taken for Inserting: 25 milliseconds
+Time taken for Deleting: 6 milliseconds
+n = 2000
+Time taken for Inserting: 118 milliseconds
+Time taken for Searching: 3 milliseconds
+Time taken for Inserting: 22 milliseconds
+Time taken for Deleting: 10 milliseconds
+n = 3000
+Time taken for Inserting: 110 milliseconds
+Time taken for Searching: 18 milliseconds
+Time taken for Inserting: 32 milliseconds
+Time taken for Deleting: 11 milliseconds
+n = 3000
+Time taken for Inserting: 103 milliseconds
+Time taken for Searching: 22 milliseconds
+Time taken for Inserting: 70 milliseconds
+Time taken for Deleting: 12 milliseconds
+n = 3000
+Time taken for Inserting: 137 milliseconds
+Time taken for Searching: 28 milliseconds
+Time taken for Inserting: 70 milliseconds
+Time taken for Deleting: 15 milliseconds
+n = 3000
+Time taken for Inserting: 131 milliseconds
+Time taken for Searching: 14 milliseconds
+Time taken for Inserting: 41 milliseconds
+Time taken for Deleting: 26 milliseconds
+n = 3000
+Time taken for Inserting: 253 milliseconds
+Time taken for Searching: 29 milliseconds
+Time taken for Inserting: 52 milliseconds
+Time taken for Deleting: 15 milliseconds
+n = 4000
+Time taken for Inserting: 192 milliseconds
+Time taken for Searching: 38 milliseconds
+Time taken for Inserting: 57 milliseconds
+Time taken for Deleting: 18 milliseconds
+n = 4000
+Time taken for Inserting: 200 milliseconds
+Time taken for Searching: 17 milliseconds
+Time taken for Inserting: 48 milliseconds
+Time taken for Deleting: 19 milliseconds
+n = 4000
+Time taken for Inserting: 191 milliseconds
+Time taken for Searching: 21 milliseconds
+Time taken for Inserting: 35 milliseconds
+Time taken for Deleting: 24 milliseconds
+n = 4000
+Time taken for Inserting: 245 milliseconds
+Time taken for Searching: 44 milliseconds
+Time taken for Inserting: 76 milliseconds
+Time taken for Deleting: 29 milliseconds
+n = 4000
+Time taken for Inserting: 194 milliseconds
+Time taken for Searching: 20 milliseconds
+Time taken for Inserting: 32 milliseconds
+Time taken for Deleting: 29 milliseconds
+n = 5000
+Time taken for Inserting: 212 milliseconds
+Time taken for Searching: 21 milliseconds
+Time taken for Inserting: 33 milliseconds
+Time taken for Deleting: 28 milliseconds
+n = 5000
+Time taken for Inserting: 233 milliseconds
+Time taken for Searching: 20 milliseconds
+Time taken for Inserting: 59 milliseconds
+Time taken for Deleting: 21 milliseconds
+n = 5000
+Time taken for Inserting: 272 milliseconds
+Time taken for Searching: 19 milliseconds
+Time taken for Inserting: 44 milliseconds
+Time taken for Deleting: 49 milliseconds
+n = 5000
+Time taken for Inserting: 193 milliseconds
+Time taken for Searching: 21 milliseconds
+Time taken for Inserting: 43 milliseconds
+Time taken for Deleting: 21 milliseconds
+n = 5000
+Time taken for Inserting: 200 milliseconds
+Time taken for Searching: 14 milliseconds
+Time taken for Inserting: 42 milliseconds
+Time taken for Deleting: 23 milliseconds
+n = 5500
+Time taken for Inserting: 231 milliseconds
+Time taken for Searching: 16 milliseconds
+Time taken for Inserting: 66 milliseconds
+Time taken for Deleting: 44 milliseconds
+n = 5500
+Time taken for Inserting: 347 milliseconds
+Time taken for Searching: 24 milliseconds
+Time taken for Inserting: 59 milliseconds
+Time taken for Deleting: 26 milliseconds
+n = 5500
+Time taken for Inserting: 276 milliseconds
+Time taken for Searching: 30 milliseconds
+Time taken for Inserting: 75 milliseconds
+Time taken for Deleting: 23 milliseconds
+n = 5500
+Time taken for Inserting: 216 milliseconds
+Time taken for Searching: 41 milliseconds
+Time taken for Inserting: 48 milliseconds
+Time taken for Deleting: 29 milliseconds
+n = 5500
+Time taken for Inserting: 243 milliseconds
+Time taken for Searching: 22 milliseconds
+Time taken for Inserting: 52 milliseconds
+Time taken for Deleting: 27 milliseconds
+n = 6000
+Time taken for Inserting: 257 milliseconds
+Time taken for Searching: 18 milliseconds
+Time taken for Inserting: 58 milliseconds
+Time taken for Deleting: 41 milliseconds
+n = 6000
+Time taken for Inserting: 284 milliseconds
+Time taken for Searching: 35 milliseconds
+Time taken for Inserting: 62 milliseconds
+Time taken for Deleting: 31 milliseconds
+n = 6000
+Time taken for Inserting: 292 milliseconds
+Time taken for Searching: 36 milliseconds
+Time taken for Inserting: 69 milliseconds
+Time taken for Deleting: 29 milliseconds
+n = 6000
+Time taken for Inserting: 237 milliseconds
+Time taken for Searching: 23 milliseconds
+Time taken for Inserting: 85 milliseconds
+Time taken for Deleting: 33 milliseconds
+n = 6000
+Time taken for Inserting: 212 milliseconds
+Time taken for Searching: 14 milliseconds
+Time taken for Inserting: 44 milliseconds
+Time taken for Deleting: 33 milliseconds
+n = 7000
+Time taken for Inserting: 264 milliseconds
+Time taken for Searching: 30 milliseconds
+Time taken for Inserting: 119 milliseconds
+Time taken for Deleting: 29 milliseconds
+n = 7000
+Time taken for Inserting: 276 milliseconds
+Time taken for Searching: 32 milliseconds
+Time taken for Inserting: 64 milliseconds
+Time taken for Deleting: 24 milliseconds
+n = 7000
+Time taken for Inserting: 290 milliseconds
+Time taken for Searching: 24 milliseconds
+Time taken for Inserting: 61 milliseconds
+Time taken for Deleting: 25 milliseconds
+n = 7000
+Time taken for Inserting: 227 milliseconds
+Time taken for Searching: 21 milliseconds
+Time taken for Inserting: 118 milliseconds
+Time taken for Deleting: 69 milliseconds
+n = 7000
+Time taken for Inserting: 245 milliseconds
+Time taken for Searching: 26 milliseconds
+Time taken for Inserting: 54 milliseconds
+Time taken for Deleting: 36 milliseconds
+n = 8000
+Time taken for Inserting: 265 milliseconds
+Time taken for Searching: 31 milliseconds
+Time taken for Inserting: 62 milliseconds
+Time taken for Deleting: 36 milliseconds
+n = 8000
+Time taken for Inserting: 299 milliseconds
+Time taken for Searching: 44 milliseconds
+Time taken for Inserting: 67 milliseconds
+Time taken for Deleting: 76 milliseconds
+n = 8000
+Time taken for Inserting: 233 milliseconds
+Time taken for Searching: 26 milliseconds
+Time taken for Inserting: 95 milliseconds
+Time taken for Deleting: 66 milliseconds
+n = 8000
+Time taken for Inserting: 288 milliseconds
+Time taken for Searching: 41 milliseconds
+Time taken for Inserting: 79 milliseconds
+Time taken for Deleting: 35 milliseconds
+n = 8000
+Time taken for Inserting: 293 milliseconds
+Time taken for Searching: 36 milliseconds
+Time taken for Inserting: 85 milliseconds
+Time taken for Deleting: 39 milliseconds
+n = 9000
+Time taken for Inserting: 252 milliseconds
+Time taken for Searching: 60 milliseconds
+Time taken for Inserting: 119 milliseconds
+Time taken for Deleting: 75 milliseconds
+n = 9000
+Time taken for Inserting: 293 milliseconds
+Time taken for Searching: 39 milliseconds
+Time taken for Inserting: 77 milliseconds
+Time taken for Deleting: 39 milliseconds
+n = 9000
+Time taken for Inserting: 360 milliseconds
+Time taken for Searching: 33 milliseconds
+Time taken for Inserting: 89 milliseconds
+Time taken for Deleting: 38 milliseconds
+n = 9000
+Time taken for Inserting: 329 milliseconds
+Time taken for Searching: 45 milliseconds
+Time taken for Inserting: 84 milliseconds
+Time taken for Deleting: 28 milliseconds
+n = 9000
+Time taken for Inserting: 281 milliseconds
+Time taken for Searching: 37 milliseconds
+Time taken for Inserting: 83 milliseconds
+Time taken for Deleting: 37 milliseconds
+n = 9500
+Time taken for Inserting: 243 milliseconds
+Time taken for Searching: 39 milliseconds
+Time taken for Inserting: 110 milliseconds
+Time taken for Deleting: 51 milliseconds
+n = 9500
+Time taken for Inserting: 263 milliseconds
+Time taken for Searching: 74 milliseconds
+Time taken for Inserting: 113 milliseconds
+Time taken for Deleting: 37 milliseconds
+n = 9500
+Time taken for Inserting: 305 milliseconds
+Time taken for Searching: 34 milliseconds
+Time taken for Inserting: 71 milliseconds
+Time taken for Deleting: 42 milliseconds
+n = 9500
+Time taken for Inserting: 328 milliseconds
+Time taken for Searching: 36 milliseconds
+Time taken for Inserting: 76 milliseconds
+Time taken for Deleting: 38 milliseconds
+n = 9500
+Time taken for Inserting: 290 milliseconds
+Time taken for Searching: 35 milliseconds
+Time taken for Inserting: 80 milliseconds
+Time taken for Deleting: 34 milliseconds
+n = 10000
+Time taken for Inserting: 285 milliseconds
+Time taken for Searching: 44 milliseconds
+Time taken for Inserting: 98 milliseconds
+Time taken for Deleting: 68 milliseconds
+n = 10000
+Time taken for Inserting: 278 milliseconds
+Time taken for Searching: 56 milliseconds
+Time taken for Inserting: 119 milliseconds
+Time taken for Deleting: 36 milliseconds
+n = 10000
+Time taken for Inserting: 311 milliseconds
+Time taken for Searching: 41 milliseconds
+Time taken for Inserting: 112 milliseconds
+Time taken for Deleting: 45 milliseconds
+n = 10000
+Time taken for Inserting: 253 milliseconds
+Time taken for Searching: 43 milliseconds
+Time taken for Inserting: 130 milliseconds
+Time taken for Deleting: 42 milliseconds
+n = 10000
+Time taken for Inserting: 271 milliseconds
+Time taken for Searching: 41 milliseconds
+Time taken for Inserting: 158 milliseconds
+Time taken for Deleting: 51 milliseconds
