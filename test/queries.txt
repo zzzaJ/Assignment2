@@ -1,4 +1,2 @@
-gname
-rname
+dname
 aname
-cname

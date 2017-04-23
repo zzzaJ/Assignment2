@@ -124,6 +124,7 @@ public class SearchAVL {
             
         }
         
+	avl.inOrder();
     }
     /**
    * This main method is used to run the search and delete methods, indirectly calling the loadData method.

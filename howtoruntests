@@ -1,0 +1,3 @@
+run this
+
+java -cp .:/home/dino/cs2001f/Assignment1/HandIn/bin:/home/dino/cs2001f/JUnit/junit-4.12.jar:/home/dino/cs2001f/JUnit/hamcrest-core-1.3.jar org.junit.runner.JUnitCore TestSearchAVL
