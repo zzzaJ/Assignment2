@@ -1,83 +1,73 @@
 /**
- * The DirectoryNode contains a name key and telephone directory entry value.
- * It is used as the datatype for a binary search tree and a linear array 
- * in the ElectronicTelephoneDirectory project for applications PrintIt, SearchIt
- * and SearchItLinear.
- * 
- * @author talajross
- * @version 1.0
- * @since 2017-04-06
+ * DirectoryNode class which holds entry data as well as the name-key.
+ * Datatype used for the AVL tree nodes
  */
+public class DirectoryNode implements Comparable<DirectoryNode>{
 
-public class DirectoryNode implements Comparable<DirectoryNode>
-    {
-    //Instance Variables:
-    private String key;         //name from data entry
-    private String value;       //whole data entry - "<address>|<number>|<full name>"
-    
-    //Constructors:
-    /**
-     * Initializes a DirectoryNode object containing the String entry as its value
-     * and the name section of the string entry as its key.
-     * It is assumed that the String entry is of the format:
-     * "address|telephone_number|name".
-     * If the String entry is of format "name", then the name is entered as both
-     * the key and the value.
-     * 
-     * @param entry A telephone directory entery of format: "address|telephone_number|name"  
-     */
-    public DirectoryNode(String entry)
-        {
-        this.value= entry;
-        int div= entry.lastIndexOf("|");    //find the the division index between number and name
-        this.key= entry.substring(div+1);     //key=name which is everything after div index
-        }
+    private String key;//String key which holds the full name of the entry     
+    private String value; //String value which holds the full entry: address|telephone number|full name      
     
     /**
-     * Accessor method which returns the key.
+     * Initializes a DirectoryNode object.
+     * The DirectoryNode object will be initialized using the full entry.
+     * Since the format of the entry is always the same, we need not take 2 parameters for the key and entry.
+     * Thus just the entry is given and the key taken from it.
      * 
-     * @return Returns the key from DirectoryNode.
+     * @param entry an entry taken from the datafile in the assumed format  
      */
-    public String getKey()
-        {
-        return key;
-        }
-    
-    /**
-     * Accessor method which returns the value.
-     * 
-     * @return Returns value from DirectoryNode.
-     */
-    public String getValue()
-        {
-        return value;
-        }
-    
-    //Print Method:
-    /**
-     * Returns a String representation of the DirectoryNode object in 
-     * format:"address|telephone_number|name" 
-     * 
-     * @return the value of the DirectoryNode object in format:"address|telephone_number|name"
-     */
-    public String toString()
-        {
-        return value;   
-        }
+    public DirectoryNode(String entry){
             
-    //Compare Method:
-    /**
-     * Compares two DirectoryNodes' keys lexicographically,
-     * returning a negative int if this Node is lexicographically less than
-     * other, a positive if this Node is lexicographically more greater than
-     * other, and zero if they are lexicographically equal.
-     * 
-     * @param other The DirectoryNode that is being compared to this DirectoryNode.
-     * @return the int comparison value for comparison between two DirectoryNodes' keys lexicographically.
-     */
-    public int compareTo(DirectoryNode other)
-        {
-        return this.key.compareTo(other.key);
-        }
-          
+            this.value= entry; //setting value to the full entry
+            this.key= entry.substring(entry.lastIndexOf("|")+1);//using substring to obtain the full name and set it as the key.
+            
     }
+    
+    /**
+     * Acessor method to get the node's key.
+     * 
+     * @return Returns the key (full name) of a DirectoryNode
+     */
+    public String getKey(){
+            
+            return key; //returns key
+            
+    }
+    
+    /**
+     * Accessor method which returns the value, which is the full entry.
+     * 
+     * @return Returns the full entry of the DirectoryNode.
+     */
+    public String getValue(){
+
+        return value; //retunrs value 
+
+    }
+    
+    /**
+     * Returns the value string, whcih is in the orignal (address|telephone number|fullname) format. 
+     * NB the method is very similiar to the getValue() method, however is just used to override the toString method
+     * and so that the value can be easily printed
+     * @return Returns the value attribute 
+     */
+    public String toString(){
+        
+        return value;  //retunrs the value of the Directory node
+        
+    }
+            
+    /**
+     * Comparison of two DirectoryNode keys alphabetically. 
+     * Returns a postive 1 if the 'other' node is alphabetically ahead of the primary node,
+     * zero if the keys are equal and a negative 1 if the 'other' is behind the primary node
+     * 
+     * @param other The DirectoryNode whcih is being compared to the primary ndoe
+     * @return the integer value representing the alphabetical order of the 2 nodes
+     */
+    public int compareTo(DirectoryNode other){
+        
+        return this.key.compareTo(other.key); //returns the value returnecd from the compareTo method from implemented class comparible
+        
+    }    
+    
+}
