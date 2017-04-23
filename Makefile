@@ -1,4 +1,4 @@
-BIN = bin
+BIN = /home/dino/cs2001f/Assignment2/Assignment2/bin
 SRC = src
 TEST = test
 DOC = doc
