@@ -1,2 +1,6 @@
-java -cp /home/dino/cs2001f/Assignment1/HandIn/test/:/home/dino/cs2001f/Assignment1/HandIn/bin:/home/dino/cs2001f/JUnit/junit-4.12.jar:/home/dino/cs2001f/JUnit/hamcrest-core-1.3.jar org.junit.runner.JUnitCore TestPrintIt
+java -cp .:/home/dino/cs2001f/Assignment2/Assignment2/bin:/home/dino/cs2001f/JUnit/junit-4.12.jar:/home/dino/cs2001f/JUnit/hamcrest-core-1.3.jar org.junit.runner.JUnitCore TestSearchAVL
+
+export CLASSPATH=.:/home/dino/cs2001f/JUnit/junit-4.12.jar:/home/dino/cs2001f/JUnit/hamcrest-core-1.3.jar:$CLASSPATH
+
+
 

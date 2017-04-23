@@ -13,9 +13,9 @@ public class TestDirectoryNode {
     
     @Before public void setUp(){
         
-       DirectoryNode a = new DirectoryNode("aaddress|atelephone|aname");
-       DirectoryNode b = new DirectoryNode("baddress|btelephone|bname");
-       DirectoryNode c = new DirectoryNode("caddress|ctelephone|cname");
+       a = new DirectoryNode("aaddress|atelephone|aname");
+       b = new DirectoryNode("baddress|btelephone|bname");
+       c = new DirectoryNode("caddress|ctelephone|cname");
         
     }
     
