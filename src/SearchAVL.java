@@ -132,7 +132,7 @@ public class SearchAVL {
     public static void main(String[] args){
         
         search();
-        deletes();
+        //deletes(); uncomment this line before running unit tests
 
     }
     
